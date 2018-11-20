@@ -1,0 +1,76 @@
+/* Header */
+.navbar {
+    padding: 1rem !important;
+}
+
+.navbar-light {
+    border-bottom: 5px solid #7d97ad;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.navbar-right {
+    margin: 10px 10px 0 0;
+    text-transform: uppercase;
+}
+
+.header-name {
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+
+/* content */
+body {
+    color: #2d3c49 !important;
+}
+
+
+.sub-title {
+    font-size: 25px;
+    color: #7d97ad;
+    margin-left: 5px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item-description {
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    color: #2d3c49;
+}
+
+.item-link {
+    color: #2d3c49;
+    font-size: 12px;
+}
+
+.m-t-30 {
+    margin-top: 30px;
+}
+
+/* used in screen views smaller than 500 px in width (most of smart mobile phones */
+@media (max-width: 500px) {
+    .header-name {
+        font-size: 1.7rem;
+    }
+    .header-job {
+        font-size: 0.8rem;
+    }
+}
